@@ -1,14 +1,13 @@
 require 'pry'
-class Player_login
- 
+class Player_login 
 
-  def login
+  def run
      player_name = enter_name
      player = Player.new(player_name)
          #table of contents for log in
   end
   def enter_name
-    puts "What is your name?"
+    puts "Enter your name to login: "
     name = gets.chomp
   end
   # def new?

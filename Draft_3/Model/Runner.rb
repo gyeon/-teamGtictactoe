@@ -1,9 +1,11 @@
 class Runner
   def run
     pl = Player_login.new
-    player = pl.login
-  end
+    player = pl.run
+    Return_player.new(player).run
 
+  end
+end
     #a service = service.new
     # rp = RegisterPlayer.new
 
@@ -25,6 +27,6 @@ class Runner
   # winner declared
   # stats stored
   # end
-end
+
 
 

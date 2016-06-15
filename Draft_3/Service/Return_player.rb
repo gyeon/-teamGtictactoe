@@ -1,14 +1,22 @@
 class Return_player
-  # def initialize(player)
-  #   @player = player
-  # end
-  # def run
-  #   return_player = check
+  def initialize(player)
+    @player = player
+  end
+  def run
+    check
+  end
 
-  # end
+  def check
+    puts "hey"
+    #player.name = gina
+    #self.player.name = gina
 
-  # # def check
-  # #   if Player.all
-      
+    if Player.all.include?(self.player.name)
+      puts "hey"
+      ##if array of all_players include grace,
+      ##set this grace's stats to that grace
+    end
+  end
+
 
 end

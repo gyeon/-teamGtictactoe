@@ -1,0 +1,35 @@
+1. What we know about objects
+Objects are: A mechanism to encapsulate data(state) and methods
+  Information that can be acted upon
+  Modeled after cells
+    - self contained - but able to work together through communication
+
+
+
+  Factory mechanism with objects
+  Scope our methods - hard to do with hashes
+  Scope our data
+
+Classes are BOTH the factory and blueprints for the object
+
+  - objects are models for what the code is supposed to do
+  - objects are abstractions of data
+  - objects - blueprints - telling you what to do or how to do it
+      - simplfying the code
+    - hashes - remember where everything is, trying to memorize a map
+    - use them through dot notation and with arguments we want to pass
+
+2. Why do we even need objects?
+   - condensing 
+   - without them, code woudln't know what to do
+3. Object mechanics
+  I. Object instances
+    - object life cycle
+    - instance methods
+    - instance variables
+    - scope
+  II. Class methods and class variables
+    - 
+  III. Self referencing with objects
+
+  
